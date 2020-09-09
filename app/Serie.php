@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Serie extends Model
 {
     public $timestamps = false;
-    protected $filable = ['nome'];
+    protected $fillable = ['nome'];
 
     public function episodios()
     {
